@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Tic Tac Toe/css/style.css" />
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+    <h1 class="text-4xl font-bold mb-4">Tic Tac Toe</h1>
+    <div id="game" class="grid grid-cols-3 gap-2 mb-4">
+        <!-- Cells will be generated dynamically here -->
+    </div>
+    <div class="mb-4">
+        <button id="restart" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-200">Restart Game</button>
+    </div>
+    <div id="message" class="text-xl font-semibold"></div>
+    <script src="/Tic Tac Toe/javascript/index.js"></script>
+</body>
+</html>
